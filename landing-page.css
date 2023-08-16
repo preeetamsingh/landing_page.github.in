@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main {
+    background-image: url(tatonomusic-1X3YSIuqYeM-unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .icon {
+    display: flex;
+    list-style: none;
+    font-size: 22px;
+    gap: 18px;
+    color: black;
+}
+
+.icon a {
+    text-decoration: none;
+    color: black;
+}
+
+.i:hover {
+    color: red;
+}
+
+.f:hover {
+    color: rgb(29, 65, 156);
+}
+
+.t:hover {
+    color: rgb(7, 133, 211);
+}
+
+@media (max-width:600px) {
+    .icon li {
+        font-size: 14px;
+        gap: 5px;
+    }
+
+    .logo img {
+        height: 60px;
+        width: 130px;
+    }
+}
+
+
+.content {
+    background-color: rgba(0, 0, 0, 0.347);
+    color: white;
+    /* font-family: 'Caprasimo', cursive; */
+    margin-top: 90px;
+    /* margin-right: 50px; */
+    padding: 0px 10px 10px 10px;
+}
+
+.tittle {
+    background-color: red;
+    width: 460px;
+    padding: 7px;
+    border-radius: 9px;
+
+}
+
+@media (max-width:990px) {
+    .tittle {
+        width: 266px;
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width:550px) {
+    .tittle {
+        width: 220px;
+        font-size: 16px;
+    }
+
+}
+
+
+.content h3 {
+    color: rgb(224, 202, 202);
+
+}
+
+img {
+    height: 110px;
+    width: 200px;
+}
+
+.form {
+    background-color: rgba(245, 245, 245, 0.82);
+    border-radius: 0px 20px 0px 20px;
+    padding: 20px 20px 20px 20px;
+    margin: 20px;
+
+}
+.logo:hover{
+    transform: scale(1.07);
+    transition: 0.3s;
+
+}
+    
+.card{
+    margin-bottom: 20px;
+    height: auto;
+    
+    
+}
+.btn{
+   
+    align-items: end;
+    margin-top: 20px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+    overflow: hidden;
+
+}
+
+.card img {
+    height: 200px;
+}
+
+footer {
+    height: auto;
+    padding: 20px;
+    color: whitesmoke;
+    background-color: #101e41;
+
+}
+.footer-2 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+@media (max-width:420px) {
+    footer{
+        font-size: 8px;
+        padding: 10px;
+
+    }
+    
+}
